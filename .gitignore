@@ -447,6 +447,7 @@ $RECYCLE.BIN/
 ##
 ## Visual Studio Code
 ##
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -455,5 +456,4 @@ $RECYCLE.BIN/
 
 ## Sonar
 .sonarqube
-.sonarlint/station-api.slconfig
 sonarscan.bat
