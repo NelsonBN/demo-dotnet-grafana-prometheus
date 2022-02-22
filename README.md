@@ -3,6 +3,8 @@
 Monitoring a WebAPI with AppMetrics, Prometheus and Grafana
 
 
+[![Solution](./media/openAPM-Landscape.png)](
+https://openapm.io/landscape?instrumentation-lib=prometheus-client-libs&storage=prometheus-server&dashboarding=grafana&showCommercial=true&showFormats=false)
 
 ## Run project
 
