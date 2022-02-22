@@ -1,4 +1,4 @@
-# demo-dotnet-grafana-prometheus-appmetrics
+# demo-dotnet-grafana-prometheus
 
 Monitoring a WebAPI with Prometheus and Grafana
 
