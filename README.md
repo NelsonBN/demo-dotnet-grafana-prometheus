@@ -1,6 +1,6 @@
 # demo-dotnet-grafana-prometheus-appmetrics
 
-Monitoring a WebAPI with AppMetrics, Prometheus and Grafana
+Monitoring a WebAPI with Prometheus and Grafana
 
 
 [![Solution](./media/openAPM-Landscape.png)](
