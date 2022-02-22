@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.project", "1.project", "{BD887835-DB8E-4FCD-8ADE-464312722F85}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		global.json = global.json
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.src", "2.src", "{048124ED-B2AD-4A64-837D-91C4F70FE516}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apm-solution", "apm-solution", "{EEB681A3-1990-4D87-A63A-822FA919422E}"
+	ProjectSection(SolutionItems) = preProject
+		src\apm-solution\docker-compose.yml = src\apm-solution\docker-compose.yml
+		src\apm-solution\Dockerfile = src\apm-solution\Dockerfile
+		src\apm-solution\prometheus.yml = src\apm-solution\prometheus.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.WebAPI", "src\Demo.WebAPI\Demo.WebAPI.csproj", "{DD56F653-64C4-4129-9722-959A92A227DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD56F653-64C4-4129-9722-959A92A227DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD56F653-64C4-4129-9722-959A92A227DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD56F653-64C4-4129-9722-959A92A227DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD56F653-64C4-4129-9722-959A92A227DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EEB681A3-1990-4D87-A63A-822FA919422E} = {048124ED-B2AD-4A64-837D-91C4F70FE516}
+		{DD56F653-64C4-4129-9722-959A92A227DF} = {048124ED-B2AD-4A64-837D-91C4F70FE516}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74590348-3E31-4D1A-886A-11CC9271C0D1}
+	EndGlobalSection
+EndGlobal
